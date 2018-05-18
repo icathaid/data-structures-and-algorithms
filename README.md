@@ -11,3 +11,4 @@ iterated through the array back to front and pushed each value to a new array
 https://github.com/icathaid/data-structures-and-algorithms/blob/master/assets/array_reverse.png
 
 how do you embed images in a text file?
+
