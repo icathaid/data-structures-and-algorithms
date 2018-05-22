@@ -40,4 +40,6 @@ Write a function called BinarySearch which takes in 2 parameters: a sorted array
 
 I was actually unclear about the name of the challenge and the source cited on the lab repo, because I couldn't figure out how to implement an actual binary search without using the .includes() method.  For the sake of arriving at a solution, I simply iterated through the array, comparing the value of each element to the search key.  If it finds a match, it returns the current value of i, and if not, it returns -1.  
 
-Tests 1-2 confirm basic functionality.
+Tests 1-3 confirm basic functionality.
+
+I started writing more tests until I realized I was writing tests for conditions that didn't need to be met, for example, checking to see if the array contains any null or undefined elements, but the specs don't actually say that it can't contain them, and the last test confirms that having undefined values in the array doesn't break it, it still returns the correct index position.
