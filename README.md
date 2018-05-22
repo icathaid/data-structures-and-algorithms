@@ -12,3 +12,9 @@ https://github.com/icathaid/data-structures-and-algorithms/blob/master/assets/ar
 
 how do you embed images in a text file?
 
+# array-shift
+
+## challenge
+
+Write a function called insertShiftArray which takes in an array and the value to be added. Without utilizing any of the built-in methods available to your language, return an array with the new value added at the middle index.
+
