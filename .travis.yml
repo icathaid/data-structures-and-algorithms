@@ -3,5 +3,7 @@ node_js:
   - "9"
 
 script:
+  - npm install eslint
+  - npm install jest
   - npm run lint
   - npm test
