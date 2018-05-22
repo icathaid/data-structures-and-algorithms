@@ -43,3 +43,6 @@ I was actually unclear about the name of the challenge and the source cited on t
 Tests 1-3 confirm basic functionality.
 
 I started writing more tests until I realized I was writing tests for conditions that didn't need to be met, for example, checking to see if the array contains any null or undefined elements, but the specs don't actually say that it can't contain them, and the last test confirms that having undefined values in the array doesn't break it, it still returns the correct index position.
+
+<img src = "https://github.com/icathaid/data-structures-and-algorithms/blob/master/assets/array_binary_search_1.jpg">
+<img src="https://github.com/icathaid/data-structures-and-algorithms/blob/master/assets/array_binary_search_2.jpg">
