@@ -8,7 +8,7 @@ write a function that accepts an array as input and returns the reverse of that 
 
 iterated through the array back to front and pushed each value to a new array
 
-<img src="https://github.com/icathaid/data-structures-and-algorithms/blob/master/assets/array_reverse.png"></>
+<img src="https://github.com/icathaid/data-structures-and-algorithms/blob/master/assets/array_reverse.png">
 
 # array-shift
 
@@ -22,3 +22,7 @@ I declared a variable indicating the middle position of the index and ran a for 
 
 Tests 1-2 confirm basic functionality.
 Subsequent test check for null or undefined values in both input fields, and for empty arrays.  
+
+Sorry for sidebar comment on my whiteboard, was getting a little bit frustrated with translating how i write pseudocode to the standard format.
+
+<img src="https://github.com/icathaid/data-structures-and-algorithms/blob/master/assets/array_shft.jpg">
