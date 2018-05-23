@@ -8,6 +8,8 @@ write a function that accepts an array as input and returns the reverse of that 
 
 iterated through the array back to front and pushed each value to a new array
 
+I'm adding a few things to test travis/jest integration of my pi
+
 <img src="https://github.com/icathaid/data-structures-and-algorithms/blob/master/assets/array_reverse.png">
 
 
