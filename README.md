@@ -30,9 +30,9 @@ Sorry for sidebar comment on my whiteboard, was getting a little bit frustrated 
 <img src="https://github.com/icathaid/data-structures-and-algorithms/blob/master/assets/array_shft.jpg">
 
 
-# array_binary_search
+# binary_array_search
 
-## challenge
+##challenge
 
 Write a function called BinarySearch which takes in 2 parameters: a sorted array and the search key. Without utilizing any of the built-in methods available to your language, return the index of the array’s element that is equal to the search key, or -1 if the element does not exist.
 
@@ -46,10 +46,3 @@ I started writing more tests until I realized I was writing tests for conditions
 
 <img src = "https://github.com/icathaid/data-structures-and-algorithms/blob/master/assets/array_binary_search_1.jpg">
 <img src="https://github.com/icathaid/data-structures-and-algorithms/blob/master/assets/array_binary_search_2.jpg">
-
-
-#array_adjacent_product
-
-## challenge
-
-## solution
