@@ -1,10 +1,9 @@
 'use strict';
 const matrix = require('../lib/array_adjacent_product.js');
 
-describe('proof of life', () => {
-  it('should return 0 and console log proof of life', () => {
-    const expected = 0;
+describe('test function', () => {
+  it('should return undefined if given testarrayIncludesUndefined and undefined', () => {
     const actual = matrix();
-    expect(actual).toEqual(expected);
+    expect(actual).toEqual(0);
   });
 });
