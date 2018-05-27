@@ -48,3 +48,4 @@ I started writing more tests until I realized I was writing tests for conditions
 
 <img src = "https://github.com/icathaid/data-structures-and-algorithms/blob/master/assets/array_binary_search_1.jpg">
 <img src="https://github.com/icathaid/data-structures-and-algorithms/blob/master/assets/array_binary_search_2.jpg">
+
