@@ -12,6 +12,9 @@ I ended up doing this with a nested for loop to iterate through each subarray in
 
 I thought I still had a long way to go working out bugs when it started passing all the tests.  For time's sake, I stopped where I was at, so there aren't any checks for non-positive integers or weirdly sized arrays.
 
+4 and 5 are blank on the whiteboard because I don't really understand how to calculate either one after the fact, muchless before.  I think the big O is running in O(n2) because it's running 2 processes (nested for loop).  I still don't understand how to convert my code into the standardized pseudocode format.
+
+
 <!-- # reverse-array
 
 ## challenge
