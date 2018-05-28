@@ -14,6 +14,9 @@ I thought I still had a long way to go working out bugs when it started passing 
 
 4 and 5 are blank on the whiteboard because I don't really understand how to calculate either one after the fact, muchless before.  I think the big O is running in O(n2) because it's running 2 processes (nested for loop).  I still don't understand how to convert my code into the standardized pseudocode format.
 
+<img src="https://github.com/icathaid/data-structures-and-algorithms/blob/master/assets/array_adjacent_product-1.jpg">
+<img src="https://github.com/icathaid/data-structures-and-algorithms/blob/master/assets/array_adjacent_product-2.jpg">
+
 
 <!-- # reverse-array
 
