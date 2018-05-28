@@ -1,4 +1,18 @@
-# reverse-array
+# array_adjacent_product
+
+## challenge
+
+write a function that will accept a 2d matrix (array of arrays) and return the the highest product of two adjacent values (horizontally, vertically, or diagonally).
+
+## solution
+
+It took a while of just playing with the code on this one to figure out how all the pieces worked before I could come up with a very cohesive plan about how to build it, and by that point I had it most of the way there anyway.
+
+I ended up doing this with a nested for loop to iterate through each subarray in the array, then runs 4 checks on the numbers to the right and below (other checks are redundant because it iterates left to right).  It stores the highest product found in a variable and checks each subsequent product found.
+
+I thought I still had a long way to go working out bugs when it started passing all the tests.  For time's sake, I stopped where I was at, so there aren't any checks for non-positive integers or weirdly sized arrays.
+
+<!-- # reverse-array
 
 ## challenge
 
@@ -46,4 +60,4 @@ I started writing more tests until I realized I was writing tests for conditions
 
 <img src = "https://github.com/icathaid/data-structures-and-algorithms/blob/master/assets/array_binary_search_1.jpg">
 <img src="https://github.com/icathaid/data-structures-and-algorithms/blob/master/assets/array_binary_search_2.jpg">
-
+ -->
