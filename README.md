@@ -49,3 +49,8 @@ I started writing more tests until I realized I was writing tests for conditions
 <img src = "https://github.com/icathaid/data-structures-and-algorithms/blob/master/assets/array_binary_search_1.jpg">
 <img src="https://github.com/icathaid/data-structures-and-algorithms/blob/master/assets/array_binary_search_2.jpg">
 
+# linked list insertions
+
+used these to get started:
+https://codeburst.io/js-data-structures-linked-list-3ed4d63e6571
+https://medium.com/@deniswells59/singly-linked-lists-with-javascript-81859a5a5095
