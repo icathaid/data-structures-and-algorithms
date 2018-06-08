@@ -13,10 +13,22 @@ describe('linked list creation module', () => {
 });
 
 describe('append module', () => {
-  it('should return 6 if list is appended with 6', () => {
+  it('should return a head of 1 even if list is appended with 6', () => {
+    const ted = bill(1);
+    ted.append(6);
+    console.log(ted.head.data);
+    expect(ted.head.data).toEqual(1);
+  });
+  it('should return 6 when appended with 6', () => {
+    const ted = bill(1);
+    ted.append(6);
+    expect(ted.next.data).toEqual(6);
+  });
+  it('should return -1 when appended with a whole bunch of stuff', () => {
     const ted = bill(1);
     ted.append(6);
     ted.append(7);
-    expect(ted.head).toEqual(1);
+    console.log(ted);
+    expect(ted.next.data).toEqual(6);
   });
 });
