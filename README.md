@@ -60,3 +60,10 @@ This explains what the bits of code I didn't understand from the first examples 
 
 https://code.tutsplus.com/articles/data-structures-with-javascript-singly-linked-list-and-doubly-linked-list--cms-23392
 
+
+# linked list kth from end
+
+I had to pretty much copy/paste the example from here:
+https://medium.com/@deniswells59/singly-linked-lists-with-javascript-81859a5a5095
+to get my append method working right in order to generate valid lists to test.  I see what I did wrong with the previous whiteboarding now, but I was spending too much time working on that and hadn't started the task at hand yet, so I'm doing this to move forward.  I didn't change the code from ll_insertions.js
+
