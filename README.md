@@ -59,3 +59,4 @@ https://medium.com/@deniswells59/singly-linked-lists-with-javascript-81859a5a509
 This explains what the bits of code I didn't understand from the first examples does.  I didn't implement it because I wanted to copy/paste as little code as possible.  Turns out they're important.  Also explains how to traverse through the list without .next.next.next.next.next.etc
 
 https://code.tutsplus.com/articles/data-structures-with-javascript-singly-linked-list-and-doubly-linked-list--cms-23392
+
