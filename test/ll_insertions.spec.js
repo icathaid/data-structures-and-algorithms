@@ -1,41 +1,22 @@
 'use strict';
-const bill = require('../lib/ll_insertions.js');
+const NewList = require('../lib/ll_insertions.js');
 
-describe('linked list creation module', () => {
-  xit('should return 5 if given 5 on an empty list', () => {
-    const actual = bill(5).head;
-    expect(actual).toEqual(5);
+describe('Linked List Module', () => {
+  it('Should return an empty node object when called with no params', () => {
+    let bill = new NewList();
+    expect(bill).toHaveProperty('data');
+    expect(bill.data).toBeUndefined();
   });
-  xit('should return undefined if given no value on an empty list', () => {
-    const actual = bill().head;
-    expect(actual).toBeUndefined();
+  it('Should return head:1, next: null when called with 1', () => {
+    let bill = new NewList(1);
+    expect(bill.data).toEqual(1);
+    expect(bill.next).toBeNull();
   });
-});
-
-describe('append module', () => {
-  it('console logs', () => {
-    const ted = bill(1);
-    console.log('ted', ted);
-    console.log('ted.head', ted.head);
-    console.log('ted.next.data', ted.next.data);
-    expect(1).toEqual(1);
-  });
-  xit('should return a head of 1 even if list is appended with 6', () => {
-    const ted = bill(1);
-    ted.append(6);
-    console.log(ted.head.data);
-    expect(ted.head.data).toEqual(1);
-  });
-  xit('should return 6 when appended with 6', () => {
-    const ted = bill(1);
-    ted.append(6);
-    expect(ted.next.data).toEqual(6);
-  });
-  xit('should return -1 when appended with a whole bunch of stuff', () => {
-    const ted = bill(1);
-    ted.append(6);
-    ted.append(7);
-    console.log(ted);
-    expect(ted.next.data).toEqual(6);
+  it('Should return return 2 when appended', () => {
+    let bill = new NewList(1);
+    bill.append(2);
+    console.log(bill);
+    expect(bill.head.next.data).toEqual(2);
+    expect(bill.next.next).toBeNull();
   });
 });
