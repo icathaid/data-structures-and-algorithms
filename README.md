@@ -60,3 +60,15 @@ This explains what the bits of code I didn't understand from the first examples 
 
 https://code.tutsplus.com/articles/data-structures-with-javascript-singly-linked-list-and-doubly-linked-list--cms-23392
 
+
+# linked list kth from end
+
+I had to pretty much copy/paste the example from here:
+https://medium.com/@deniswells59/singly-linked-lists-with-javascript-81859a5a5095
+to get my append method working right in order to generate valid lists to test.  I see what I did wrong with the previous whiteboarding now, but I was spending too much time working on that and hadn't started the task at hand yet, so I'm doing this to move forward.  I didn't change the code from ll_insertions.js
+
+Writing the method itself was actually pretty easy, but I think there is something wrong with how I'm exporting the class, because I can't get any of the tests to run.  It seems to be requiring the module fine (if I change the filepath to anything else I get errors), but it's not importing any of the functionality.  
+
+<img src = "https://github.com/icathaid/data-structures-and-algorithms/blob/master/assets/ll_kth_from_end.jpg">
+
+<a href src="https://repl.it/repls/DeepDopeyArchives">Link to code in Repl.it</a>
