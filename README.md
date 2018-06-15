@@ -13,7 +13,9 @@ I should have timeboxed this a long time ago but honestly it just pissed me off.
 
 There was probably an easy/elegant solution for the insertBefore and insertAfter methods, but I just went with this because I can refactor the search function part of it for the next whiteboard.
 
-
+TO DO:
+  write tests that match the examples in the canvas instructions
+  
 
 # reverse-array
 
