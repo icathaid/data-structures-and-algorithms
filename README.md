@@ -9,8 +9,9 @@ This explains what the bits of code I didn't understand from the first examples 
 
 https://code.tutsplus.com/articles/data-structures-with-javascript-singly-linked-list-and-doubly-linked-list--cms-23392
 
+I should have timeboxed this a long time ago but honestly it just pissed me off.  Also, a lot of subsequent labs are breaking on the same parts as this one so I kind of need to get everything working before I can move forward on everything else.  I'd also like to get a clean, working codebase that I can reuse later.
 
-
+There was probably an easy/elegant solution for the insertBefore and insertAfter methods, but I just went with this because I can refactor the search function part of it for the next whiteboard.
 
 
 

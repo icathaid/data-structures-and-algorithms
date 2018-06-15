@@ -29,6 +29,3 @@ describe('Linked List Append Method', () => {
     expect(bill.head.next.next.next).toBeNull();
   });
 });
-describe('Linked List InsertBefore Method', () => {
-  
-});
