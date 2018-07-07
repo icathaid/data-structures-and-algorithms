@@ -8,6 +8,8 @@
 
 -   I opted not to test for an increased length because I couldn't figure out a good way to implement a counter that would still work if the method was called on an existing linked list, or without iterating through the list twice within the test.  
 
+-   I couldn't remember how to throw/return an error, so for validation purposes I returned -1 and checked for that.
+
 ###     Feature Tasks
 
 []  enqueue(value) - should insert (value) into Queue using FIFO
